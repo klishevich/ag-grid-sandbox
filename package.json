@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.1.0",
+    "@ag-grid-community/core": "^32.1.0",
+    "ag-grid-react": "^32.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2"

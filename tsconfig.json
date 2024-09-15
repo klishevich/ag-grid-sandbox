@@ -2,12 +2,24 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "jsx": "react",
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "lib": ["dom", "esnext"],
+    "noImplicitAny": true,
+    "allowJs": false,
     "strict": true,
     "sourceMap": true,
-    "target": "esnext"
+    "target": "esnext",
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": false,
+    "alwaysStrict": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+    
   },
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
