@@ -7,7 +7,7 @@ const container = document.getElementById("app-root")!;
 const root = createRoot(container);
 root.render(
   <React.Fragment>
-    <h1>Hello React!</h1>
+    <h1>AG Grid!</h1>
     <MyAgGrid />
   </React.Fragment>
 );
